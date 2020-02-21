@@ -1,0 +1,96 @@
+body {
+   
+    
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    min-height: auto;
+}
+.box{
+    background: url(img/reichstag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.name {
+    float: left;
+   color:black;
+   font-size: 45px;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+}
+
+svg {
+    width: 300px;
+}
+.mapdiv {
+        /*background-image: linear-gradient(to right, transparent , rgb(209, 62, 62));*/
+        float: left;
+        width: 600px;
+        height: 450px;
+        text-align: center;
+}
+
+.mapdiv path {
+    
+	fill: url(#pattern);
+	stroke: #dece0c;
+	stroke-width: 4px;
+	transition: fill 1s;
+}
+.mapdiv path:hover {
+
+    fill: rgb(26, 2, 82);
+    transition: fill 1s;
+    cursor: pointer;
+    
+    
+}
+.password {
+
+    float: left;
+    color: black;
+    /* background-image: linear-gradient(to right, rgb(209, 62, 62) , transparent); */
+    height: 450px;
+    width: 600px;
+    font-size: 35px;
+    text-align: center;
+    min-height: 450px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+.reset
+{
+    font-size: 48px;
+    color: rgb(0, 48, 32);
+    cursor: pointer;
+}
+
+.landclass{
+    background-image: linear-gradient(to bottom, yellow, black);
+}
+.reset:hover
+{
+    color: rgb(2, 131, 88);
+    
+    font-weight: 900;
+    
+}
+.top {
+    height: 50px;
+    background: black;
+}
+
+.bottom {
+    height: 50px;
+    background: black;
+}
